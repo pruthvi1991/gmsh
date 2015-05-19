@@ -114,11 +114,19 @@ Transfinite Surface{9} = {}; //{10,13,12,11};
 
 Recombine Surface{2,3,4,5,6,7,8,9};
 
-Extrude {0, 0, 1}
+Extrude {0, 0, -1}
  {
   Surface{1,2,3,4,5,6,7,8,9};
   Layers{1};
   Recombine;
  }
 
+Physical Surface("inlet") = {61};	// inlet
+Physical Surface("topAndBottom") = {49,57};	// top
+Physical Surface("outlet") = {53};	// outlet
+// Physical Surface(290) = {57};	// bottom
+Physical Surface("front") = {1, 2, 3, 4, 7, 8, 9, 6, 5};	// front
+Physical Surface("back") = {110, 176, 154, 132, 264, 242, 220, 198, 286};	// back
+Physical Surface("wing") = {281, 149, 229, 185};	// wing
 
+Physical Volume(294) = {4, 3, 2, 5, 1, 9, 8, 7, 6}; // internal mesh
