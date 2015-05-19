@@ -4,4 +4,8 @@ In the current file directory type:
 
 gmsh flatplate_bl.geo
 
-Then press the keyboard key '2' to view the mesh. The plate is very thin so zoom in a lot to view the plate.
+Then press the keyboard key '3' to view the mesh. The plate is very thin so zoom in a lot to view the plate.
+
+Alternately you can also try the following
+gmsh -3 flatplate_bl.geo  # to execute the solver
+gmsh flatplate_bl.msh  # to view the mesh
