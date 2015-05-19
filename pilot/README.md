@@ -8,6 +8,6 @@ Then press the keyboard key '3' to view the mesh. The plate is very thin so zoom
 
 Alternately you can also try the following
 
-
 gmsh -3 flatplate_bl.geo  # to execute the solver
+
 gmsh flatplate_bl.msh  # to view the mesh
