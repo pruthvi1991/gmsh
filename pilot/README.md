@@ -2,12 +2,12 @@ This is an attempt to mesh a flatplate using a hybrid(structured+unstructured me
 
 In the current file directory type:
 
-gmsh flatplate_bl.geo
+gmsh flatplate_bl_latest.geo
 
 Then press the keyboard key '3' to view the mesh. The plate is very thin so zoom in a lot to view the plate.
 
 Alternately you can also try the following
 
-gmsh -3 flatplate_bl.geo  # to execute the solver
+gmsh -3 flatplate_bl_latest.geo  # to execute the solver
 
-gmsh flatplate_bl.msh  # to view the mesh
+gmsh flatplate_bl_latest.msh  # to view the mesh
