@@ -4,6 +4,8 @@ bb_width = 20;		// Bounding Box width
 c_res = 150;			// chord length
 bl_res = c_res*0.3;		// Length of each element normal to the chord
 
+// Airfoil co-ordinates begin
+
 Point(1) = {0.000000, 0.000000, 0, 1};
 Point(2) = {0.000252, 0.003509, 0, 1};
 Point(3) = {0.001007, 0.006970, 0, 1};
@@ -203,6 +205,9 @@ Point(196) = {0.002264, -0.010380, 0, 1};
 Point(197) = {0.001007, -0.006970, 0, 1};
 Point(198) = {0.000252, -0.003509, 0, 1};
 
+// Airfoil ends
+
+// Outer envelope begins
 Point(199) = {-0.125000, 0.000000, 0, 1};
 Point(200) = {-0.124685, 0.010527, 0, 1};
 Point(201) = {-0.123742, 0.020909, 0, 1};
@@ -401,6 +406,8 @@ Point(393) = {-0.119972, -0.041216, 0, 1};
 Point(394) = {-0.122170, -0.031140, 0, 1};
 Point(395) = {-0.123742, -0.020909, 0, 1};
 Point(396) = {-0.124685, -0.010527, 0, 1};
+
+// Outer envelope ends
 
 //Point(397) = {-bb_length, bb_width, 0, 1.0};
 //Point(398) = {bb_length, bb_width, 0, 1.0};
