@@ -1,0 +1,7 @@
+NACA2gmsh_inflation.m is an octave file which generated two NACA profiles enveloping each other. This is useful to generate hybrid meshes. The generated co-ordinates are in gmsh format. So they can be used in a gmsh file and modified to create a hybrid mesh.
+
+NACA_coordinates_inflation_noskew.geo is an example of a hybrid mesh generated this way.
+
+I will automate this process in the future so that executing a shell script will generate a high quality hybrid mesh.
+
+The NACA2gmsh_inflation is derived from here -----> https://www.hpc.ntnu.no/download/attachments/4587566/NACA2STL.m?version=2&modificationDate=1344859930000&api=v2 . The creator -----> Håkon Strandenes, hakostra@stud.ntnu.no
